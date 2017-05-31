@@ -1,0 +1,261 @@
+<style>
+	*{
+		font-size: 12px;
+	}
+	* ul{
+		list-style-position: inside;
+	}
+	* a{
+		text-decoration: none;
+	}
+	body{
+		background:url(../images/bodybg.gif);
+	}
+	.header{
+		height: 205px;
+		background: url(../images/bg.gif);
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	.banner{
+		width: 1000px;
+		height: 164px;
+		background: url(../images/logo.png);
+		background-repeat: no-repeat;
+		background-position: 480px 38px;
+	}
+	.nav{
+		height: 40px;
+		background: url(../images/nav.jpg);
+	}
+	.nav_body{
+		width: 1500px;
+	}
+	.nav_content{
+		width:1400px;
+	}
+	.nav_content ul{
+		list-style: none;
+	}
+	.l_1{
+		float: left;
+		margin-left: 400px;
+		margin-top: 10px;
+	}
+	.l{
+		float: left;
+		margin-top: 13px;
+		font-size: 12px;
+	}
+	.l_1 li a {
+		font-size: 12px;
+		color: #f9f603;
+	}
+	.l_1 li a:hover{
+		font-size: 12px;
+		color:#f9f603;
+	}
+	.l li a {
+		color: white;
+		font-size: 12px;
+	}
+	.l li a:hover{
+		color:#f9f603;
+		font-size: 12px;
+	}
+	.nav_search{
+		float: right;
+		margin: 10px;
+	}
+
+
+	#content{
+		width: 1000px;
+		clear: both;
+	}
+	#content_top{
+		margin-left: 440px;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	#content_bottom_left{
+		margin-left: 440px;
+		width: 730px;
+		float: left;
+	}
+	#content_bottom_right{
+		width: 290px;
+		height: 480px;
+		margin-top: 20px;
+		margin-left: 40px;
+		float: left;
+	}
+	.news_pic{
+		width: 324px;
+		height: 243px;
+		background-image: url(../images/news_bg.png);
+		float: left;
+	}
+	.news_pic_img{
+		margin-top: 10px;
+		margin-left: 12px;
+	}
+	.news_pic_word{
+		text-align: center;
+		color:#996633;
+	}
+	.news_list{
+		width: 410px;
+		float: left;
+	}
+	.news_list_pic{
+		margin-left: 38px;
+	}
+	.news_list_l ul li{
+		height: 30px;
+	}
+	.news_list_l ul li a{
+		font-size: 13px;
+		color:#996633;
+	}
+	.news_announce{
+		background-image: url(../images/board_bg.png);
+		background-repeat: no-repeat;
+		background-position: 28px 38px;
+		width: 305px;
+		float: left;
+		overflow: hidden;
+	}
+	.news_announce_pic{
+		height: 23px;
+		float: left;
+		margin-left: 120px;
+	}
+	.news_announce_l{
+		width: 350px;
+		height: 210px;
+		margin-top: 10px;
+		float: left;
+	}
+	.news_announce_l ul li{
+		height: 30px;
+	}
+	.news_announce_l ul li a{
+		font-size: 14px;
+		color:#996633;
+	}
+
+	.academic{
+		width: 341px;
+		background-image: url(../images/academic.png);
+		background-repeat: no-repeat;
+		float: left;
+	}
+	.academic ul li{
+		height: 30px;
+	}
+	.academic ul li a{
+		font-size: 14px;
+		color:#996633;
+	}
+	.book_news{
+		width: 341px;
+		float: left;
+		background-image: url(../images/book_news.png);
+		background-repeat: no-repeat;
+		margin-left: 30px;
+	}
+	.book_news ul li{
+		height: 30px;
+	}
+	.book_news ul li a{
+		font-size: 14px;
+		color:#996633;
+	}
+	.fengcaai{
+		width: 710px;
+		clear: both;
+		background-image: url(../images/fengcai_bg1.png);
+		background-repeat: no-repeat;
+		float: left;
+	}
+	.fengcaai_pic{
+		width: 710px;
+		float: left;
+		height: 186px;
+		background-image: url(../images/fengcai_bg2.png);
+		background-repeat: no-repeat;
+		background-position: 20px 0;
+	}
+	.fengcaai_pic ul li{
+		list-style: none;
+		display: inline;
+	}
+	.content_bottom_right_b_m{
+		width: 114px;
+		height: 23px;
+		margin-left: 80px;
+		float: left;
+	}
+	.content_bottom_right_d{
+		width: 280px;
+		height: 400px;
+		float: left;
+		margin-top: 20px;
+		background-image: url(../images/show_bg.png);
+		background-repeat: no-repeat;
+	}
+	.content_bottom_right_d_p{
+		margin-top: 20px;
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+	.content_bottom_right_w{
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 20px;
+		font-size: 14px;
+		color:#996633;
+	}
+	.content_bottom_right_g{
+		float: right;
+		margin-right: 30px;
+	}
+
+	.footer{
+		margin-top: 530px;
+	}
+	.footer_bg{
+		clear: both;
+		background-image: url(../images/foot.gif);
+		background-repeat: no-repeat;
+		height: 105px;
+	}
+	.footer_y ul li{
+		list-style: none;
+		display: inline;
+	}
+	.footer_y ul li a{
+		color:#996633;
+	}
+	.footer_y{
+		margin: 0px auto;
+		width: 700px;
+	}
+	.footer_x{
+		width: 517px;
+		margin: 0px auto;
+	}
+	.footer_w1{
+		width: 350px;
+		font-size: 12px;
+		margin: 0px auto;
+		color: #996633;
+	}
+	.footer_w2{
+		width: 265px;
+		font-size: 12px;
+		margin: 0px auto;
+		color: #996633;
+	}
+</style>
