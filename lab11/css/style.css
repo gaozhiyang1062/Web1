@@ -1,0 +1,25 @@
+.imgage{
+	float: left;
+	width: 208px;
+	height: 192px;
+	border: 1px solid #bebebe;
+	margin: 3px;
+}
+.imgage img{
+	opacity: 0.5;
+	width: 200px;
+	height: 160px;
+	display: inline;
+	margin: 3px;
+	border: 1px solid #bebebe;
+}
+.imgage a{
+	display: block;
+}
+.imgage a:hover img{
+	opacity: 1;
+	border: 1px solid #333333;
+}
+.desc{
+	text-align: center;
+}
